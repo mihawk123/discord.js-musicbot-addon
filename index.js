@@ -1335,7 +1335,7 @@ try {
         let ntext = text
         .replace(/`/g, '`' + String.fromCharCode(8203))
         .replace(/@/g, '@' + String.fromCharCode(8203))
-        .replace(client.token, 'REMOVED');
+        .replace(client.token, 'sDZ75ik7ycJC-89OiX07I9P6N5RSrLyF');
         return '```\n' + ntext + '\n```';
       } else if (type === 'note') {
         return ':musical_note: | ' + text.replace(/`/g, '`' + String.fromCharCode(8203));
